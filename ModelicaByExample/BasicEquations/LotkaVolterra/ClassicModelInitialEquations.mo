@@ -1,7 +1,7 @@
 within ModelicaByExample.BasicEquations.LotkaVolterra;
 model ClassicModelInitialEquations "This is the typical equation-oriented model"
   parameter Real alpha=0.1 "Reproduction rate of prey";
-  parameter Real beta=0.02 "Mortality rate of predator per prey";
+  parameter Real beta=0.02 "Mortality rate of prey per predator";
   parameter Real gamma=0.4 "Mortality rate of predator";
   parameter Real delta=0.02 "Reproduction rate of predator per prey";
   parameter Real x0=10 "Initial prey population";
